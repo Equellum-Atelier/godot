@@ -1,3 +1,17 @@
+# This is Equellum Atelier's customized fork
+In order to provide the smoothest experience for developers and associates we use a fork of Godot with several additional modules to extend the engine's capabilities.
+
+We added the following modules:
+* [LimboAI](https://github.com/limbonaut/limboai)
+* [GodotSteam](https://github.com/GodotSteam/GodotSteam)
+
+The working branch is based on [Godot's 4.3 branch](https://github.com/godotengine/godot/tree/4.3)
+
+## How to build
+Before building, you must first add the Steam SDK to the GodotSteam module, as Valve does not allow publishing the Steamworks SDK outside object form. For a proper explanation on how to do this, please follow [GodotSteam's guide](https://godotsteam.com/howto/modules/#get-the-steamworks-sdk).
+After you have done this, simply follow [Godot's instructions](https://docs.godotengine.org/en/stable/contributing/development/compiling/index.html#toc-devel-compiling) on how to build the editor.
+
+
 # Godot Engine
 
 <p align="center">
